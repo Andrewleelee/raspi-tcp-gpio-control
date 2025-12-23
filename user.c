@@ -7,8 +7,8 @@
 #include <string.h>
 #include <fcntl.h> // for open(), O_WRONLY, etc.
 
-const char *host = "192.168.0.197"; // IP address of A
-int port = 7000;                    // Server port
+const char *host = "192.168.0.197"; // Raspberry Pi 4 (TCP Server) IP
+int port = 7000;                    // TCP Server port
 
 int main()
 {
