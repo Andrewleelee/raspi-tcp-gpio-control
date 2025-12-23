@@ -8,7 +8,7 @@
 #include <arpa/inet.h>
 
 #define CHIPNAME "/dev/gpiochip0"
-#define BUTTON_LINE 27   // BCM22 → 按鈕 → GND
+#define BUTTON_LINE 27   // BCM27 → 按鈕 → GND
 #define PORT 7000
 
 // 三個狀態字串
